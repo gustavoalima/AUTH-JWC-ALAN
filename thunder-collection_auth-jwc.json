@@ -1,0 +1,64 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "auth-jwc",
+    "collectionId": "6baf3efa-110a-46d7-9ef9-eae7083fd4de",
+    "dateExported": "2024-05-21T23:20:32.329Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "a1ba7c2a-ace0-4ff4-b1c4-9173ae3d9916",
+            "colId": "6baf3efa-110a-46d7-9ef9-eae7083fd4de",
+            "containerId": "",
+            "name": "register",
+            "url": "http://localhost:3000/register",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-05-21T23:17:14.962Z",
+            "modified": "2024-05-21T23:17:54.531Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n\"username\":\"guxtaav\",\n\"email\":\"gusgaa@gmail.com\",\n\"password\": \"230328804\"\n\n\n\n}",
+                "form": []
+            },
+            "filePath": "/home/up01/.config/Code/User/globalStorage/rangav.vscode-thunder-client/collections/auth-jwc/register.json"
+        },
+        {
+            "_id": "654739b1-825e-4fee-bfdc-3907d573faab",
+            "colId": "6baf3efa-110a-46d7-9ef9-eae7083fd4de",
+            "containerId": "",
+            "name": "login",
+            "url": "http://localhost:3000/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-05-21T23:18:38.449Z",
+            "modified": "2024-05-21T23:19:32.652Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \n\"email\":\"gusgaa@gmail.com\",\n\"password\": \"230328804\"\n  \n}",
+                "form": []
+            },
+            "filePath": "/home/up01/.config/Code/User/globalStorage/rangav.vscode-thunder-client/collections/auth-jwc/login.json"
+        },
+        {
+            "_id": "2f22b01d-4a35-483f-9822-33d4d5484fb1",
+            "colId": "6baf3efa-110a-46d7-9ef9-eae7083fd4de",
+            "containerId": "",
+            "name": "users",
+            "url": "http://localhost:3000/users",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-05-21T23:19:59.113Z",
+            "modified": "2024-05-21T23:20:17.824Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NywidXNlcm5hbWUiOiJndXh0YWF2IiwiZW1haWwiOiJndXNnYWFAZ21haWwuY29tIiwicGFzc3dvcmQiOiIkMmIkMTAkWW12ZWRtOU5jSEpOQ0JHdnY1d04wZTNldVREcnh4U08ud01DNVhDSXQ1SFUyNWVWNmtVM0ciLCJjcmVhdGVkQXQiOiIyMDI0LTA1LTIxVDIzOjE3OjU0LjUyMloiLCJ1cGRhdGVkQXQiOiIyMDI0LTA1LTIxVDIzOjE3OjU0LjUyMloiLCJpYXQiOjE3MTYzMzM1NzIsImV4cCI6MTcxNjMzNzE3Mn0.olO498u3eIZJMsyoTpaK-xZHA2-2aJvnir-GS6WlhdU"
+            },
+            "filePath": "/home/up01/.config/Code/User/globalStorage/rangav.vscode-thunder-client/collections/auth-jwc/users.json"
+        }
+    ],
+    "ref": "tq6FbwRWWMiwRBGGQZqlb5sWoqmcWfTQDhEgt7nrWQX2Cvugn4rNb-PJLIY0f-jg7EetKgojXU0MMWNzPKDsrg"
+}
